@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Gabrielle | Pants</title>
+		<meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="application-name" content="Gabrielle" />
+        <meta name="description" content="..." />
+        <link rel="icon" href="asset/img/icon.gif" />
+        <link rel="stylesheet" href="asset/css/constant.css" />
+        <link rel="stylesheet" href="asset/css/bootstrap.css" />
+        <script type="text/javascript" src="asset/js/jquery-2.1.1.js"></script>
+        <script type="text/javascript" src="asset/js/bootstrap.js"></script>
+        <script type="text/javascript">
+		  $('#tabPants a[href="#Casual"]').tab('show')
+		</script>
+		<script type="text/javascript">
+			function UnCheckAll(chk){
+				for (i = 0; i < chk.length; i++)
+				chk[i].checked = false ;
+			}
+		</script>
+    </head>
+	<body>		
+		<div class="header">
+			<div class="header-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-2 col-lg-offset-5 col-md-2 col-md-offset-5 col-sm-2 col-sm-offset-3 col-xs-3 col-xs-offset-0 header-top-menu">
+							<img src="asset/img/icon-lock.png" alt="" />
+							<a href="my-account.html">MY ACCOUNT</a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-3 header-top-menu">
+							<img src="asset/img/icon-cart.png" alt="" />
+							<a href="view-cart.html">VIEW CART</a>
+						</div>
+						<div class="col-lg-1 col-md-1 col-sm-2 col-xs-3 header-top-menu">
+							<img src="asset/img/icon-lock.png" alt="" />
+							<a href="login.html">LOGIN</a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3 header-top-menu">
+							<input type="text" id="txtSearch" placeholder="SEARCH" required/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-nav">
+				<div class="container">
+					<div class="row">
+						<div class="header-nav-logo col-md-3 col-sm-12 col-xs-12">
+							<div></div>
+						</div>
+						<nav id="nav" class="col-md-9 header-nav-bar">
+							<a href="#nav" class=""></a>
+							<a href="#" class=""></a>
+							<ul>
+								<li>
+									<ul class="header-nav-bar-sub">
+										<li>
+											<a href="#">NEW ARRIVALS</a>
+										</li>
+										<li>
+											<a href="#">SALE</a>
+										</li>
+										<li>
+											<a href="#">T-SHIRTS</a>
+										</li>
+										<li>
+											<a href="pants.html">PANTS</a>
+										</li>
+										<li>
+											<a href="#">JACKETS</a>
+										</li>
+										<li>
+											<a href="#">SHIRTS</a>
+										</li>
+										<li>
+											<a href="#">ACCESSORIES</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="container">
+				<div class="row content-top">
+					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						<ol class="breadcrumb">
+  							<li><a href="index.html">Home</a></li>
+  							<li class="active">Pants</li>
+						</ol>
+					</div>
+				</div>
+				<div class="row content-page">
+					<div class="content-left-pants content-left-pg col-lg-9 col-md-9">
+						<div class="row">
+							<div class="col-lg-3 col-md-4 col-sm-4 hidden-xs">
+								<!-- Nav tabs -->
+								<ul class="nav nav-tabs" id="tabPants">
+									<li class="active"><a href="#casual" data-toggle="tab">Casual</a></li>
+									<li><a href="#jeans" data-toggle="tab">Jeans</a></li>
+								</ul>
+								<!-- Tab panes -->
+								<div class="tab-content">
+									<div class="tab-pane fade in active" id="casual">
+										<div class="panel-group" id="accordion">
+											<div class="panel panel-default">
+												<div class="panel-heading">
+											      	<h4 class="panel-title">
+											        	<a data-toggle="collapse" href="#collapseOne">
+											        		Shirts
+											        	</a>
+												    </h4>
+											    </div>
+											    <div id="collapseOne" class="panel-collapse collapse">
+											    	<div class="panel-body">
+											    		<li><a href="#">Long Sleves</a></li>
+											    		<li><a href="#">Short Sleves</a></li>
+											    	</div>
+											    </div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading">
+											      	<h4 class="panel-title">
+											        	<a data-toggle="collapse" href="#collapseTwo">
+											        		T-Shirts
+											        	</a>
+												    </h4>
+											    </div>
+											    <div id="collapseTwo" class="panel-collapse collapse">
+											    	<div class="panel-body">
+											    		<li><a href="#">Long Sleves</a></li>
+											    		<li><a href="#">Short Sleves</a></li>
+											    	</div>
+											    </div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading">
+											      	<h4 class="panel-title">
+											        	<a data-toggle="collapse" href="#collapseThree">
+											        		Jacket
+											        	</a>
+												    </h4>
+											    </div>
+											    <div id="collapseThree" class="panel-collapse collapse">
+											    	<div class="panel-body">
+											    		<li><a href="#">Long Sleves</a></li>
+											    		<li><a href="#">Short Sleves</a></li>
+											    	</div>
+											    </div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading">
+											      	<h4 class="panel-title">
+											        	<a data-toggle="collapse" href="#collapseFour">
+											        		Long Pants
+											        	</a>
+												    </h4>
+											    </div>
+											    <div id="collapseFour" class="panel-collapse collapse">
+											    	<div class="panel-body">
+											    		<li><a href="#">Long Sleves</a></li>
+											    		<li><a href="#">Short Sleves</a></li>
+											    	</div>
+											    </div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading">
+											      	<h4 class="panel-title">
+											        	<a data-toggle="collapse" href="#collapseFive">
+											        		Short Pants
+											        	</a>
+												    </h4>
+											    </div>
+											    <div id="collapseFive" class="panel-collapse collapse">
+											    	<div class="panel-body">
+											    		<li><a href="#">Long Sleves</a></li>
+											    		<li><a href="#">Short Sleves</a></li>
+											    	</div>
+											    </div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading">
+											      	<h4 class="panel-title">
+											        	<a data-toggle="collapse" href="#collapseSix">
+											        		Accessories
+											        	</a>
+												    </h4>
+											    </div>
+											    <div id="collapseSix" class="panel-collapse collapse">
+											    	<div class="panel-body">
+											    		<li><a href="#">Long Sleves</a></li>
+											    		<li><a href="#">Short Sleves</a></li>
+											    	</div>
+											    </div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade in" id="jeans">
+										<div class="panel-group" id="accordion">
+											<div class="panel panel-default">
+												<div class="panel-heading">
+											      	<h4 class="panel-title">
+											        	<a data-toggle="collapse" href="#jeanscollapseOne">
+											        		Shirts
+											        	</a>
+												    </h4>
+											    </div>
+											    <div id="jeanscollapseOne" class="panel-collapse collapse">
+											    	<div class="panel-body">
+											    		<li><a href="#">Long Sleves</a></li>
+											    		<li><a href="#">Short Sleves</a></li>
+											    	</div>
+											    </div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading">
+											      	<h4 class="panel-title">
+											        	<a data-toggle="collapse" href="#jeanscollapseTwo">
+											        		T-Shirts
+											        	</a>
+												    </h4>
+											    </div>
+											    <div id="jeanscollapseTwo" class="panel-collapse collapse">
+											    	<div class="panel-body">
+											    		<li><a href="#">Long Sleves</a></li>
+											    		<li><a href="#">Short Sleves</a></li>
+											    	</div>
+											    </div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading">
+											      	<h4 class="panel-title">
+											        	<a data-toggle="collapse" href="#jeanscollapseThree">
+											        		Jacket
+											        	</a>
+												    </h4>
+											    </div>
+											    <div id="jeanscollapseThree" class="panel-collapse collapse">
+											    	<div class="panel-body">
+											    		<li><a href="#">Long Sleves</a></li>
+											    		<li><a href="#">Short Sleves</a></li>
+											    	</div>
+											    </div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading">
+											      	<h4 class="panel-title">
+											        	<a data-toggle="collapse" href="#jeanscollapseFour">
+											        		Long Pants
+											        	</a>
+												    </h4>
+											    </div>
+											    <div id="jeanscollapseFour" class="panel-collapse collapse">
+											    	<div class="panel-body">
+											    		<li><a href="#">Long Sleves</a></li>
+											    		<li><a href="#">Short Sleves</a></li>
+											    	</div>
+											    </div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading">
+											      	<h4 class="panel-title">
+											        	<a data-toggle="collapse" href="#jeanscollapseFive">
+											        		Short Pants
+											        	</a>
+												    </h4>
+											    </div>
+											    <div id="jeanscollapseFive" class="panel-collapse collapse">
+											    	<div class="panel-body">
+											    		<li><a href="#">Long Sleves</a></li>
+											    		<li><a href="#">Short Sleves</a></li>
+											    	</div>
+											    </div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading">
+											      	<h4 class="panel-title">
+											        	<a data-toggle="collapse" href="#jeanscollapseSix">
+											        		Accessories
+											        	</a>
+												    </h4>
+											    </div>
+											    <div id="jeanscollapseSix" class="panel-collapse collapse">
+											    	<div class="panel-body">
+											    		<li><a href="#">Long Sleves</a></li>
+											    		<li><a href="#">Short Sleves</a></li>
+											    	</div>
+											    </div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-9 col-md-8 col-sm-8 col-xs-12">
+								<div class="pants-banner-slide">
+									<div class="pbs-head">PANTS</div>
+									<div class="row">
+										<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+											<img src="asset/img/fg-pc-pants.png" alt="">
+											<br>
+											5 POCKETS
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+											<img src="asset/img/fg-pc-pants.png" alt="">
+											<br>
+											OFFICER PANTS
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+											<img src="asset/img/fg-pc-pants.png" alt="">
+											<br>
+											CARGO
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="visible-xs col-xs-6">
+								<!-- Nav tabs -->
+								<ul class="nav nav-tabs" id="tabPants">
+									<li class="active"><a href="#casual" data-toggle="tab">Casual</a></li>
+									<li><a href="#jeans" data-toggle="tab">Jeans</a></li>
+								</ul>
+								<!-- Tab panes -->
+								<div class="tab-content">
+									<div class="tab-pane fade in active" id="casual">
+										<div class="panel-group" id="accordion">
+											<div class="panel panel-default">
+												<div class="panel-heading">
+											      	<h4 class="panel-title">
+											        	<a data-toggle="collapse" href="#collapseOne">
+											        		Shirts
+											        	</a>
+												    </h4>
+											    </div>
+											    <div id="collapseOne" class="panel-collapse collapse">
+											    	<div class="panel-body">
+											    		<li><a href="#">Long Sleves</a></li>
+											    		<li><a href="#">Short Sleves</a></li>
+											    	</div>
+											    </div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading">
+											      	<h4 class="panel-title">
+											        	<a data-toggle="collapse" href="#collapseTwo">
+											        		T-Shirts
+											        	</a>
+												    </h4>
+											    </div>
+											    <div id="collapseTwo" class="panel-collapse collapse">
+											    	<div class="panel-body">
+											    		<li><a href="#">Long Sleves</a></li>
+											    		<li><a href="#">Short Sleves</a></li>
+											    	</div>
+											    </div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading">
+											      	<h4 class="panel-title">
+											        	<a data-toggle="collapse" href="#collapseThree">
+											        		Jacket
+											        	</a>
+												    </h4>
+											    </div>
+											    <div id="collapseThree" class="panel-collapse collapse">
+											    	<div class="panel-body">
+											    		<li><a href="#">Long Sleves</a></li>
+											    		<li><a href="#">Short Sleves</a></li>
+											    	</div>
+											    </div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading">
+											      	<h4 class="panel-title">
+											        	<a data-toggle="collapse" href="#collapseFour">
+											        		Long Pants
+											        	</a>
+												    </h4>
+											    </div>
+											    <div id="collapseFour" class="panel-collapse collapse">
+											    	<div class="panel-body">
+											    		<li><a href="#">Long Sleves</a></li>
+											    		<li><a href="#">Short Sleves</a></li>
+											    	</div>
+											    </div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading">
+											      	<h4 class="panel-title">
+											        	<a data-toggle="collapse" href="#collapseFive">
+											        		Short Pants
+											        	</a>
+												    </h4>
+											    </div>
+											    <div id="collapseFive" class="panel-collapse collapse">
+											    	<div class="panel-body">
+											    		<li><a href="#">Long Sleves</a></li>
+											    		<li><a href="#">Short Sleves</a></li>
+											    	</div>
+											    </div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading">
+											      	<h4 class="panel-title">
+											        	<a data-toggle="collapse" href="#collapseSix">
+											        		Accessories
+											        	</a>
+												    </h4>
+											    </div>
+											    <div id="collapseSix" class="panel-collapse collapse">
+											    	<div class="panel-body">
+											    		<li><a href="#">Long Sleves</a></li>
+											    		<li><a href="#">Short Sleves</a></li>
+											    	</div>
+											    </div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade in" id="jeans">
+										<div class="panel-group" id="accordion">
+											<div class="panel panel-default">
+												<div class="panel-heading">
+											      	<h4 class="panel-title">
+											        	<a data-toggle="collapse" href="#jeanscollapseOne">
+											        		Shirts
+											        	</a>
+												    </h4>
+											    </div>
+											    <div id="jeanscollapseOne" class="panel-collapse collapse">
+											    	<div class="panel-body">
+											    		<li><a href="#">Long Sleves</a></li>
+											    		<li><a href="#">Short Sleves</a></li>
+											    	</div>
+											    </div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading">
+											      	<h4 class="panel-title">
+											        	<a data-toggle="collapse" href="#jeanscollapseTwo">
+											        		T-Shirts
+											        	</a>
+												    </h4>
+											    </div>
+											    <div id="jeanscollapseTwo" class="panel-collapse collapse">
+											    	<div class="panel-body">
+											    		<li><a href="#">Long Sleves</a></li>
+											    		<li><a href="#">Short Sleves</a></li>
+											    	</div>
+											    </div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading">
+											      	<h4 class="panel-title">
+											        	<a data-toggle="collapse" href="#jeanscollapseThree">
+											        		Jacket
+											        	</a>
+												    </h4>
+											    </div>
+											    <div id="jeanscollapseThree" class="panel-collapse collapse">
+											    	<div class="panel-body">
+											    		<li><a href="#">Long Sleves</a></li>
+											    		<li><a href="#">Short Sleves</a></li>
+											    	</div>
+											    </div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading">
+											      	<h4 class="panel-title">
+											        	<a data-toggle="collapse" href="#jeanscollapseFour">
+											        		Long Pants
+											        	</a>
+												    </h4>
+											    </div>
+											    <div id="jeanscollapseFour" class="panel-collapse collapse">
+											    	<div class="panel-body">
+											    		<li><a href="#">Long Sleves</a></li>
+											    		<li><a href="#">Short Sleves</a></li>
+											    	</div>
+											    </div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading">
+											      	<h4 class="panel-title">
+											        	<a data-toggle="collapse" href="#jeanscollapseFive">
+											        		Short Pants
+											        	</a>
+												    </h4>
+											    </div>
+											    <div id="jeanscollapseFive" class="panel-collapse collapse">
+											    	<div class="panel-body">
+											    		<li><a href="#">Long Sleves</a></li>
+											    		<li><a href="#">Short Sleves</a></li>
+											    	</div>
+											    </div>
+											</div>
+											<div class="panel panel-default">
+												<div class="panel-heading">
+											      	<h4 class="panel-title">
+											        	<a data-toggle="collapse" href="#jeanscollapseSix">
+											        		Accessories
+											        	</a>
+												    </h4>
+											    </div>
+											    <div id="jeanscollapseSix" class="panel-collapse collapse">
+											    	<div class="panel-body">
+											    		<li><a href="#">Long Sleves</a></li>
+											    		<li><a href="#">Short Sleves</a></li>
+											    	</div>
+											    </div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+								<h4>Refined By:</h4>
+								<form class="form-pants" name="formpants">
+									<input type="button" name="Un_CheckAll" value="clear all"
+									onClick="UnCheckAll(document.formpants.check_list)">
+									<h4>Type</h4>
+									<input type="checkbox" name="check_list" value="1"> Basic
+									<br>
+									<input type="checkbox" name="check_list" value="2"> Fancy
+									<h4>Cutting</h4>
+									<input type="checkbox" name="check_list" value="3"> Slimfit
+									<br>
+									<input type="checkbox" name="check_list" value="4"> Regular
+									<br>
+									<input type="checkbox" name="check_list" value="5"> Skinny
+								</form>
+							</div>
+							<div class="col-lg-9 col-md-9 col-sm-9 col-sm-offset-0 col-xs-12 pants-refine">
+								Search Result: 103 items
+								<div class="pants-list-product">
+									<a href="product-detail.html">
+										<div>
+											<img src="asset/img/product-pants-1.jpg" alt="" draggable="false"/>
+											<div>
+												<h4>STEADY EDDY</h4>
+												<h5>Skinny Jeans</h5>
+												<h4 class="price">Rp. 254.000</h4><h4 class="price-disc">Rp. 330.000</h4>
+												<div class="clear"></div>
+												<span>Size Available<span>32 35 38</span></span>
+											</div>
+										</div>
+									</a>
+									<a href="product-detail.html">
+										<div>
+											<img src="asset/img/product-pants-2.jpg" alt="" draggable="false"/>
+											<div>
+												<h4>STEADY EDDY</h4>
+												<h5>Skinny Jeans</h5>
+												<h4 class="price">Rp. 254.000</h4><h4 class="price-disc">Rp. 330.000</h4>
+												<div class="clear"></div>
+												<span>Size Available<span>32 35 38</span></span>
+											</div>
+										</div>
+									</a>
+									<a href="product-detail.html">
+										<div>
+											<img src="asset/img/product-pants-1.jpg" alt="" draggable="false"/>
+											<div>
+												<h4>STEADY EDDY</h4>
+												<h5>Skinny Jeans</h5>
+												<h4 class="price">Rp. 254.000</h4><h4 class="price-disc">Rp. 330.000</h4>
+												<div class="clear"></div>
+												<span>Size Available<span>32 35 38</span></span>
+											</div>
+										</div>
+									</a>
+									<a href="product-detail.html">
+										<div>
+											<img src="asset/img/product-pants-2.jpg" alt="" draggable="false"/>
+											<div>
+												<h4>STEADY EDDY</h4>
+												<h5>Skinny Jeans</h5>
+												<h4 class="price">Rp. 254.000</h4><h4 class="price-disc">Rp. 330.000</h4>
+												<div class="clear"></div>
+												<span>Size Available<span>32 35 38</span></span>
+											</div>
+										</div>
+									</a>
+									<a href="product-detail.html">
+										<div>
+											<img src="asset/img/product-pants-1.jpg" alt="" draggable="false"/>
+											<div>
+												<h4>STEADY EDDY</h4>
+												<h5>Skinny Jeans</h5>
+												<h4 class="price">Rp. 254.000</h4><h4 class="price-disc">Rp. 330.000</h4>
+												<div class="clear"></div>
+												<span>Size Available<span>32 35 38</span></span>
+											</div>
+										</div>
+									</a>
+									<a href="product-detail.html">
+										<div>
+											<img src="asset/img/product-pants-2.jpg" alt="" draggable="false"/>
+											<div>
+												<h4>STEADY EDDY</h4>
+												<h5>Skinny Jeans</h5>
+												<h4 class="price">Rp. 254.000</h4><h4 class="price-disc">Rp. 330.000</h4>
+												<div class="clear"></div>
+												<span>Size Available<span>32 35 38</span></span>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="paging col-lg-9 col-md-9 col-sm-9 col-lg-offset-3 col-md-offset-3 col-sm-offset-3">
+								<div style="float:left;color:#898989">Showing 36 to 42 of 103 items</div>
+								<div style="float:right">
+									<ul class="pagination">
+										<li><a href="#">Prev</a></li>
+										<li class="active"><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+										<li><a href="#">5</a></li>
+										<li><a href="#">Next</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3">
+						<div class="content-right">
+							<div class="fit-gd-right col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-5 col-sm-offset-1 col-xs-8">
+								<h3>FIT GUIDE</h3>
+								<div class="clear"></div>
+								<div>
+									<img src="asset/img/fit-guide-right-jeans.png" draggable="false" alt=""/>
+								</div>
+								<div>
+									<p>
+										From high to loose..
+										Here are the Gabrielle fits. Spin them around and compare look & measurements. 
+									</p>
+									<a href="fit-guide.html">Visit Fit Guide</a>
+								</div>
+							</div>
+							<div class="about-right col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-5 col-sm-offset-0 col-xs-8">
+								<h3>ABOUT GABRIELLE</h3>
+								<p>We love jeans, a passion we share with everyone who mourns a pair of worn out jeans as a close friend. Jeans share the same soul and attitude as music.</p>
+								<a href="about-us.html">Read More >></a>
+							</div>
+							<div class="clear"></div>
+							<div class="contact-right col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-4 col-sm-offset-1 col-xs-8">
+								<h3>CONTACT US</h3>
+								<p>
+									Jln. Letjen Sutoyo 109-111 Malang 
+									Email : gabrielle @ gmail.com
+									Telp : 0341 - 895 535 65
+								</p>
+								<a href="contact.html">Read More</a>
+							</div>
+							<div class="shipping-right col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-4 col-sm-offset-1 col-xs-8">
+								<h3>SHIPPING/RETURN POLICY</h3>
+								<p>
+									We hope that you are satisfied with your purchase. However, in the event that you need to return your unworn items.
+								</p>
+								<a href="penukaran.html">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="footer-top hidden-sm hidden-xs"></div>
+				</div>
+				<div class="row">
+					<div class="footer-nav">
+						<div class="container">
+							<div class="row">
+								<div class="footer-nav-menu col-lg-2 col-md-2 col-sm-3 col-xs-5">
+									<h3>MORE INFO</h3>
+									<ul>
+										<li>
+											<a href="about-us.html">About Gabrielle</a>
+										</li>
+										<li>
+											<a href="fit-guide.html">Fit Guide</a>
+										</li>
+										<li>
+											<a href="store-location.html">Store Location</a>
+										</li>
+										<li>
+											<a href="faq.html">FAQ</a>
+										</li>
+										<li>
+											<a href="terms-condition.html">Terms & Condition</a>
+										</li>
+										<li>
+											<a href="contact.html">Contact Us</a>
+										</li>
+									</ul>
+								</div>
+								<div class="footer-nav-menu col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-6 col-sm-offset-3 col-xs-7">
+									<h3>STAY UPDATE</h3>
+									<p>
+										Want to stay with us to get most out of Gabrielle?
+										Simply put your email address below to subsrcibe to our news and updates
+									</p>
+									<input type="email" placeholder="Input your email" required/>
+									<input type="submit" value="Submit" />
+								</div>
+								<div class="footer-nav-menu col-lg-3 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-12 col-xs-12">
+									<h3>GET IN TOUCH WITH US</h3>
+									<div class="sos-net">
+										<span>
+											<a href="#fb">
+												<img src="asset/img/sos-net-fb.png" draggable="false" alt="">
+											</a>
+										</span>
+										<span>
+											<a href="#tw">
+												<img src="asset/img/sos-net-tw.png" draggable="false" alt="">
+											</a>
+										</span>
+										<span>
+											<a href="#ig">
+												<img src="asset/img/sos-net-ig.png" draggable="false" alt="">
+											</a>
+										</span>
+										<span>
+											<a href="#ml">
+												<img src="asset/img/sos-net-mail.png" draggable="false" alt="">
+											</a>
+										</span>
+									</div>
+								</div>
+							</div>
+							<div class="row footer-cp-pw">
+								<div class="footer-copy col-lg-4 col-md-4 col-sm-6 col-xs-12">
+									&copy;2014 <a href="http://gabrielle.co.id">Gabrielle.co.id</a> all rights reserved
+								</div>
+								<div class="footer-pw col-lg-3 col-lg-offset-5 col-md-3  col-md-offset-5 col-sm-4 col-sm-offset-2 col-xs-12">
+									Powered By | the-netwerk |
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

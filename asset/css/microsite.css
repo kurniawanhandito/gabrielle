@@ -1,0 +1,87 @@
+/* font-face */	
+@font-face{
+	font-family: Urania-C;
+	src:
+	url('../font/urania_c/urania_czech.eot?') format('eot'),
+	url('../font/urania_c/urania_czech.otf?') format('opentype'),
+	url('../font/urania_c/urania_czech.svg?') format('svg'),
+	url('../font/urania_c/urania_czech.ttf?') format('truetype'),
+	url('../font/urania_c/urania_czech.woff?') format('woff');
+}
+@font-face{
+	font-family: DroidSans;
+	src:
+	url('../font/droid_sans/DroidSans.eot?') format('eot'),
+	url('../font/droid_sans/DroidSans.otf?') format('opentype'),
+	url('../font/droid_sans/DroidSans.svg?') format('svg'),
+	url('../font/droid_sans/DroidSans.ttf?') format('truetype'),
+	url('../font/droid_sans/DroidSans.woff?') format('woff');
+}
+
+root{display: block;}
+body{padding: 0px !important;margin: 0px !important;border: none;background: #F9F8F8 !important;}
+
+/* header */
+.header{height: 140px;}
+.header .logo{text-align: center;}
+.header .logo img{padding-top: 70px;display: inline-block;}
+.header div:first-of-type a{padding: 0px !important}
+.header div a{font-family: DroidSans;font-size: 17px;text-decoration: none;padding-top: 115px;display: inline-block;color: #111;font-weight: bold;}
+.header div a:hover,.header div a.selected{text-shadow: 0 0 3px #A1A1A1;color: #898989}
+.header div{text-align: center;}
+
+/* content */
+.content{height: 560px;margin-bottom: 10px}
+.pg-slide{padding-right: 0px !important}
+.pg-content{;background: #363636;color: #FFF;padding: 15px; height: 560px;}
+.pg-content h1{font-family: Urania-C;margin-top: 0px;border-bottom: 1px solid #FFF;}
+.pg-content .p{font-family: DroidSans;height: 460px;}
+.pg-content .p h5{margin-bottom: 0px;}
+.pg-content .p ul{padding: 0px;}
+.pg-content .p li{list-style: none;}
+.pg-content .p li:before{
+    content: "- ";
+}
+.pagination{margin: 0 !important;float: right;}
+.pagination li{}
+.pagination li a{padding: 0px 5px !important; background: transparent !important; border: none !important; text-decoration: underline !important; color: #FFF !important;}
+.pagination li a:hover{color: #EE921D !important}
+.wrapper,
+.navbar-static-top .wrapper,
+.navbar-fixed-top .wrapper,
+.navbar-fixed-bottom .wrapper{width: auto;}
+.wrapper {margin-right: auto;margin-left: auto;*zoom: 1;}
+.wrapper:before,
+.wrapper:after {display: table;content: "";line-height: 0;}
+.wrapper:after {clear: both;}
+.wrapper-fluid {padding-right: 20px;padding-left: 20px;*zoom: 1;}
+.wrapper-fluid:before,
+.wrapper-fluid:after {display: table;content: "";line-height: 0;}
+.wrapper-fluid:after {clear: both;}
+#slides{display: none;}
+.slidesjs-navigation {margin-top:3px;display: none !important}
+.slidesjs-previous {margin-right: 5px;float: left;}
+.slidesjs-next {margin-right: 5px;float: left;}
+.slidesjs-pagination {float: left; list-style: none; padding: 0px; margin-top: -35px; z-index: 15; position: relative; left: 595px;}
+.slidesjs-pagination li {float: left;margin: 0 1px;}
+.slidesjs-pagination li a {display: block; width: 13px; height: 0; padding-top: 13px; background-image: url('../img/pagination3.png'); background-position: 0 0; float: left; overflow: hidden;}
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {background-position: 0 -13px}
+.slidesjs-pagination li a:hover {background-position: 0 -26px}
+.slidesjs-control > img{border: 5px solid #363636;width: auto !important;}
+
+/* Tiny Carousel */
+#slider1 {height: 1%; overflow:hidden; padding: 0 0 10px;}
+#slider1 .viewport {float: left;width: 1170px;height: 560px;overflow: hidden;position: relative;}
+#slider1 .buttons {background: url('../img/microsite/left-nav-slider.png') no-repeat; display: block; float: left; width: 35px; height: 115px; position: relative; margin-bottom: -115px; z-index: 2; top: 230px; left: 10px;}
+#slider1 .next {background: url('../img/microsite/right-nav-slider.png') no-repeat;float: right;top: -330px;right: 10px;left: -10px;}
+#slider1 .buttons:hover{}
+#slider1 .disable {visibility: hidden;}
+#slider1 .overview {list-style: none; position: absolute; padding: 0; margin: 0; width: 240px; left: 0 top: 0;}
+#slider1 .overview li{float: left; margin: 0 20px 0 0; padding: 1px; height: 560px; border: none; width: 1170px;}
+#slider1 .overview li div{display: inline-block; position: relative; top: -310px; left: 100px; color: #FFF; font-family: Urania-C;}
+#slider1 .overview li div h1{font-size: 100px;margin-bottom: -55px;text-shadow: 1px 1px 10px #000;}
+#slider1 .overview li div h5{margin-top: 45px;font-size: 36px;font-style: italic;text-shadow: 1px 1px 10px #000;}
+
+/* footer */
+.footer{margin-bottom: 30px;}

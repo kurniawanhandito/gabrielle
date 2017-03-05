@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gabrielle Jeans | Home</title>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="application-name" content="Gabrielle" />
+    <meta name="description" content="..." />
+    <link rel="icon" href="../asset/img/icon.gif" />
+    <link rel="stylesheet" href="../asset/css/microsite.css" />
+    <link rel="stylesheet" href="../asset/css/bootstrap.css" />
+	<script type="text/javascript" src="../asset/js/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="../asset/js/jquery.tinycarousel.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			$('#slider1').tinycarousel({
+				interval:true,
+				intervalTime:3000
+			});
+		});
+	</script>
+</head>
+<body>
+	<div class="container">
+		<div class="row header">
+			<div class="col-lg-3">
+				<div class="logo">
+					<a href="index.html"><img src="../asset/img/logo-micro.png" draggable="false" alt="" /></a>
+				</div>
+			</div>
+			<div class="col-lg-2">
+				<a href="about.html">ABOUT US</a>
+			</div>
+			<div class="col-lg-2">
+				<a href="products.html">PRODUCTS</a>
+			</div>
+			<div class="col-lg-2">
+				<a href="production-guide.html">PRODUCTION GUIDE</a>
+			</div>
+			<div class="col-lg-3">
+				<a href="../index.html">BACK TO MAIN SITE</a>
+			</div>
+		</div>
+		<div class="row content">
+			<div class="col-lg-12">
+				<div id="slider1">
+					<a class="buttons prev" href="#"></a>
+					<div class="viewport">
+						<ul class="overview">
+							<li>
+								<img src="../asset/img/microsite/home-slider-1.jpg" />
+								<div>
+									<h1>MORE CASUAL</h1>
+									<h1>MORE STYLIST</h1>
+									<h5>We proudly present our outstanding product</h5>
+								</div>
+							</li>
+							<li>
+								<img src="../asset/img/microsite/home-slider-1.jpg" />
+								<div>
+									<h1>MORE CASUAL</h1>
+									<h1>MORE STYLIST</h1>
+									<h5>We proudly present our outstanding product</h5>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<a class="buttons next" href="#"></a>
+				</div>
+			</div>
+		</div>
+		<div class="row footer">
+			<div class="col-lg-3">
+				&copy;2014 <a href="http://gabrielle.co.id">Gabrielle.co.id</a> all rights reserved
+			</div>
+			<div class="col-lg-2 col-lg-offset-7">
+				Powered By <b>the-netwerk</b>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
